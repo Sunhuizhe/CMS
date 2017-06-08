@@ -620,20 +620,21 @@ CMS：内容管理系统，位于web前端和后端办公系统之间的软件�
    以首页的河中新闻为例：
    1. 文章标题的显示
    获取：
-	{pc:content action="lists" catid="21" order="inputtime DESC" num="8"}
-        	{loop $data $v}
-                <li><a href="{$v['url']}">{$v['title']}
-                </a><span class="newsdate">{$v['inputtime']}</span></li>
-                {/loop}
-        {/pc}
-        <!--content是内容模块，它需要找到的模块;
+   
+    {pc:content action="lists" catid="21" order="inputtime DESC" num="8"}
+    {loop $data $v}
+    <li><a href="{$v['url']}">{$v['title']}
+    </a><span class="newsdate">{$v['inputtime']}</span></li>
+    {/loop}
+    {/pc}
+    	content是内容模块，它需要找到的模块;
             action为它所要进行的行为,lists表示要获取列表;
             catid是要获取的栏目的catid值;
             order表示排序依据及排序方式;
             num表示要获取的数据数目;
             $data代表数据;
             $v存放每一条数据;
-            $v['title'],$v['url'],$v['inputtime']为数据库中的数据;-->
+            $v['title'],$v['url'],$v['inputtime']为数据库中的数据;
 2. 获取栏目
 3. 获取推荐位（不是属于某一栏目的）
 4. 其他
