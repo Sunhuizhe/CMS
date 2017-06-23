@@ -1,0 +1,420 @@
+*{
+	padding:0px;
+	margin:0px;
+	text-align:left;
+	}
+li{
+    list-style:none;
+   }
+img{
+    border:0px;
+	}
+body{
+	font-size:12px;
+	background-color:#fff;
+	background:url(../images/bg.gif) top no-repeat;
+	color:#727272;
+	text-align:center;	
+	font-family:Arial, Helvetica, sans-serif;
+	}
+#mybody{
+	margin:auto;
+	width:1005px;
+	background:url(../images/banner.jpg) top no-repeat;
+	}
+a{
+	color:#727272;
+	text-decoration:none;
+	}
+a:hover{
+	text-decoration:underline;
+	}
+.font_spe{
+	font-weight:bold;
+	color:#22a3d3;
+	}
+/*菜单样式*/
+.menu{
+	height:75px;
+	text-align:center;
+	color:#b9f605;
+	font-size:14px;
+	font-weight:bold;
+	}
+.menu ul{
+	width:1005px;
+	margin:auto;
+	height:75px;
+	line-height:75px;
+	vertical-align:middle;	
+	}
+.menu li{
+	float:left;
+	padding:0px 11px;	
+	}
+.menu a{
+	color:#fff;	
+	text-decoration:none;
+	}
+.menu a:hover{
+	color:#b9f605;
+	}
+.menu .specil {
+	color:#fdb306;
+	}
+/*搜索样式*/
+#search{
+	width:283px;
+	height:33px;
+	margin-top:315px;
+	margin-left:23px;
+	*margin-left:10px;
+	*width:300px;
+	}
+#search .search_text{
+	width:246px;
+	height:33px;
+	border:0px;
+	background:url(../images/search_bg.gif);
+	font-size:14px;
+	color:#666;
+	float:left;
+	}
+#search .search_but{
+	width:37px;
+	height:33px;
+	background:url(../images/search_button.gif);
+	border:0px;
+	float:left;
+	}
+/*第一部分内容：图片新闻和公告*/
+#no1{
+	width:1005px;	
+		}
+/*图片新闻*/
+#picnews{
+	width:773px;
+	height:300px;
+	background:url(../images/news_pic_bg.gif) ;
+	margin-top:20px;
+	float:left;	
+	}
+/*图片新闻的图*/
+
+.container{
+    width:280px; 
+	height:252px; 
+	overflow:hidden;
+	position:relative; 
+	margin:23px; 
+	float:left; 
+	_margin:23px 20px 23px 10px
+	}
+
+.slider{
+    position:absolute;
+	}
+.slider li{ 
+    list-style:none;
+	display:inline;
+	}
+.slider img{ 
+    width:280px; 
+	height:210px; 
+	display:block;
+	}
+
+.slider2{width:2000px;}
+.slider2 li{float:left;}
+
+.num{ 
+    position:absolute; 
+	right:5px; 
+	bottom:45px;
+	}
+.num li{
+	float: left;
+	color: #FF7300;
+	text-align: center;
+	line-height: 16px;
+	width: 16px;
+	height: 16px;
+	font-family: Arial;
+	font-size: 12px;
+	cursor: pointer;
+	overflow: hidden;
+	margin: 3px 1px;
+	border: 1px solid #FF7300;
+	background-color: #fff;
+}
+.num li.on{
+	color: #fff;
+	line-height: 21px;
+	width: 21px;
+	height: 21px;
+	font-size: 16px;
+	margin: 0 1px;
+	border: 0;
+	background-color: #FF7300;
+	font-weight: bold;
+}
+/*图片新闻的标题*/
+.slider li p{
+	width:260px;
+	height:30px;
+	background:url(../images/pic_news.gif);
+	line-height:30px;
+	vertical-align:middle;
+	padding:5px 10px;
+	font-size:14px;
+	margin-top:2px;
+	}
+
+/*新闻列表*/
+#news{
+	height:255px;
+	float:left;
+	}
+#news h1{
+	width:430px;
+	height:50px;
+	background:url(../images/news_pic_title.gif);
+	margin-top:5px;
+	margin-bottom:5px;
+	}
+#news ul{
+	float:left;
+	}
+#news li{
+	width:430px;
+	height:27px;
+	line-height:30px;
+	font-size:14px;
+	*line-height:27px;
+	position:relative;
+	}
+#news .hot{
+	color:#65a7d0;
+	font-weight:bold;
+	font-size:16px;
+	font-family:"微软雅黑";
+	letter-spacing:1px;
+	}
+#news .newsdate{
+	color:#a9a9a9;
+	position:absolute;
+	right:0px
+	}
+/*公告*/
+#notice{
+	height:300px;
+	width:210px;
+	background:url(../images/news_pic_bg.gif) ;
+	margin-top:20px;
+	float:left;
+	margin-left:22px;
+	}
+#notice h1{
+	width:187px;
+	height:50px;
+	background:url(../images/notice_title.gif) no-repeat;
+	margin-top:25px;
+	}
+#notice h1 img{
+	float:right;	
+	margin-top:20px;
+	}
+#notice ul{
+	padding:15px;
+	}
+#notice li{
+	height:45px;
+	line-height:22px;
+	}
+/*第二部分内容：教研网和德育网*/
+#no2{
+	width:1005px;
+	height:226px;
+	clear:both;
+	}
+.news_content{
+	width:480px;
+	height:225px;
+	float:left;	
+	}
+.news_content img{
+	margin:10px 10px 10px 0px;
+	float:left; 
+	}
+.news_content ul{
+	width:310px;
+	height:145px;
+	margin-left:10px;
+	margin-top:10px;
+	background:url(../images/news_bg.gif);
+	float:left;
+	padding:10px
+	}
+.news_content li{
+	height:26px;	
+	}
+/*第三部分内容：4个图片*/
+#no3{
+	clear:both;
+	width:1005px;
+	height:140px;
+	background:url(../images/ad_bg.gif);	
+	margin-top:35px;
+	}
+#no3 img{
+	margin-left:35px;	
+	}
+/*第四部分内容：简介和滚动图片*/
+#no4{
+	clear:both;
+	width:1005px;
+	
+	height:260px;
+	margin-top:25px;	
+	}
+#no4 li {
+	padding: 0;
+	margin: 0;
+	border-width: 0;
+}
+	/*简介*/
+#synopsis{
+	width:250px;
+	margin-right:20px;
+	float:left;
+	}
+#synopsis h1{
+	width:201px;
+	height:43px;
+	margin-top:25px;
+	background:url(../images/pic_title.gif)
+	}
+#synopsis ul{
+	padding:15px 10px 10px 20px;
+	line-height:23px;
+	text-indent:20px;
+	}
+#synopsis p{
+	float:right;
+	margin-right:15px;	
+	}
+#synopsis .input_but{
+	width:125px;
+	height:40px;
+	background:url(../images/button.gif);
+	color:#727272;
+	font-size:14px;
+	text-align:center;
+	border:0px;
+	}
+#synopsis .input_but:hover{	
+	background:url(../images/button_1.gif);
+	cursor:pointer;
+	}
+	/*图片滚动*/
+#slide_1 {
+	width: 730px;
+	height: 260px;
+	position: relative;
+	color: #727272;
+	float:right;
+	margin-top:10px;
+	background:url(../images/pic_bg.gif);
+}
+
+#slide_1 .slide_content {
+	width: 710px;
+	height: 220px;	
+	margin: 0 auto;	
+}
+#slide_1 .slide_content li {
+	text-align: center; 	
+	margin: 15px 0 0 0;		
+}
+#slide_1 .slide_content li p {
+	width: 200px;
+	font-size: 14px;
+	color: #727272;
+	text-align: center;	
+	line-height:40px;
+	vertical-align:middle;
+	height:40px;
+	margin: 2px auto 0 auto;
+	background:url(../images/pic_foot_bg.gif)
+}
+
+/*单个索引轮换*/
+#slide_1 .index_name { 
+    margin: 0px auto 0 auto; 
+	overflow: hidden; 
+	}
+#slide_1 .index_name li {
+	width: 13px;
+	height: 13px;
+	border-radius: 13px;
+	text-align: center;
+	background: #eee;
+	color: #eee;
+	float: left;
+	display: inline;
+	margin: 0 5px;
+	cursor: pointer;
+}
+#slide_1 .index_name li.index_now { 
+    background: #e0e0e0; 
+	}
+
+/*底部*/
+#foot{
+	width:100%;
+	clear:both;
+	height:245px;
+	margin-top:25px;
+	background:url(../images/foot_bg.gif);
+	}
+#foot #nr{
+	width:1005px;
+	margin:auto;
+	color:#d8d8d8;
+	}
+#nr a{
+	color:#d8d8d8;
+	}
+#nr a:hover{
+	color:#fff;
+    }
+.foot_link{
+	width:240px;	
+	height:170px;
+	float:left;
+	margin-right:10px;
+	
+	}
+.foot_link h1{
+	padding-top:10px;
+	height:36px;
+	margin-bottom:8px;	
+	}
+.foot_link ul{
+	float:left;
+	margin-left:45px;	
+	_margin-left:20px;
+	}
+.foot_link li{
+	height:22px;
+	}
+#copyright{
+	clear:both;		
+	text-align:center;
+	color:#d8d8d8;
+	height:70px;
+	line-height:70px;
+	vertical-align:middle;
+	
+	}
+

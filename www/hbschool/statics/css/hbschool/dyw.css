@@ -1,0 +1,319 @@
+*{
+	padding:0px;
+	margin:0px;
+	text-align:left;
+	}
+li{list-style:none;}
+img{border:0}
+body{
+	font-size:14px;
+	background-color:#fff;
+	background:url(../img/news/bg.gif) top no-repeat;
+	color:#727272;
+	text-align:center;	
+	font-family:Arial, Helvetica, sans-serif;
+	}
+#mybody_dyw{
+	margin:auto;
+	width:1005px;
+	background:url(../img/news/banner-dy.jpg) top no-repeat;	
+	}
+#mybody_jyw{
+	margin:auto;
+	width:1005px;
+	background:url(../img/news/banner-jy.jpg) top no-repeat;	
+	}
+#mybody_xyh{
+	margin:auto;
+	width:1005px;
+	background:url(../img/news/banner-xy.jpg) top no-repeat;	
+	}
+#mybody_tsg{
+	margin:auto;
+	width:1005px;
+	background:url(../img/news/banner-tsg.jpg) top no-repeat;	
+	}
+#top{
+	height:300px;
+	}
+a{
+	color:#727272;
+	text-decoration:none;
+	}
+a:hover{
+	text-decoration:underline;
+	}
+.font_spe{
+	font-weight:bold;
+	color:#22a3d3;
+	}
+/*菜单样式*/
+.menu{
+	height:60px;
+	text-align:center;
+	color:#b9f605;
+	font-size:14px;
+	font-weight:bold;
+	}
+.menu ul{
+	width:1005px;
+	margin:auto;
+	height:60px;
+	line-height:60px;
+	vertical-align:middle;	
+	}
+.menu li{
+	float:left;
+	padding:0px 11px;	
+	}
+.menu a{
+	color:#fff;	
+	text-decoration:none;
+	}
+.menu a:hover{
+	color:#b9f605;
+	}
+.menu .specil {
+	color:#fdb306;
+	}
+#dh{
+	height:54px;	
+
+	
+	}
+#dh h1{
+	font-size:14px;
+	float:left;
+	height:54px;
+	line-height:54px;
+	vertical-align:middle;
+	text-align:left;
+	font-weight:normal;
+	background:url(../img/news/pot.png) left no-repeat;
+	padding-left:30px;
+	width:690px;
+	}
+
+/*搜索样式*/
+#search{
+	width:283px;
+	height:33px;
+	margin-top:11px;
+	vertical-align:middle;
+	float:left;	
+	
+	}
+#search .search_text{
+	width:246px;
+	height:33px;
+	border:0px;
+	background:url(../img/search_bg1.gif);
+	font-size:14px;
+	color:#666;
+	float:left;
+	}
+#search .search_but{
+	width:37px;
+	height:33px;
+	background:url(../img/search_button.gif);
+	border:0px;
+	float:left;
+	}
+#left{
+	width:260px;
+	float:left;
+	font-size:14px;
+	}
+#leftmenu{
+	width:260px;
+	margin-top:20px;
+	}
+#leftmenu h1{
+	font-size:16px;
+	height:40px;
+	font-family:"微软雅黑";
+	background:url(../img/news/menutitle.gif);
+	padding-left:40px;
+	line-height:40px;
+	vertical-align:middle;
+	}
+#leftmenu ul{margin:20px 0}
+#leftmenu a{
+	display:block;
+	height:40px;
+	background:url(../img/news/menulist.gif);
+	padding-left:40px;
+	line-height:40px;
+	vertical-align:middle;
+	}
+#leftmenu a:hover{
+	color:#57c306;
+	background:url(../img/news/menuhover.gif);
+	font-weight:bold;
+	text-decoration:none;
+	}
+#leftmenu .dq{
+	color:#57c306;
+	background:url(../img/news/menuhover.gif);
+	font-weight:bold;
+	}
+#hot{
+	border-top:1px solid #eee;
+	background-color:#f9f9f9;
+	border-bottom:2px solid #eee;
+	padding-bottom:8px;
+	text-align:center;
+	margin:20px auto;
+	*padding-top:10px;
+	*margin-top:5px
+
+	}
+#hot h1{
+	height:36px;
+	width:206px;
+	margin:15px auto;
+	background:url(../img/news/hot.gif);
+	
+	}
+#hot li{
+	font-size:12px;
+	height:25px;
+	margin-left:27px;
+	
+	}
+
+#right{
+	width:720px;
+	margin-left:25px;
+	float:left;	
+	}
+
+#picnews{
+	width:720px;
+	height:265px;
+	border-top:1px solid #eee;
+	border-bottom:2px solid #eee;
+	background-color:#f9f9f9;
+	margin-top:20px;
+	
+	}
+/*图片新闻的图*/
+
+.container{width:260px; height:232px; overflow:hidden;position:relative; margin:15px ; float:left; _margin:23px 20px 23px 10px}
+
+.slider{position:absolute;}
+.slider li{ list-style:none; display:inline;}
+.slider img{ width:260px; height:194px; display:block;}
+
+.slider2{width:2000px;}
+.slider2 li{float:left;}
+
+.num{ position:absolute; right:5px; bottom:45px;}
+.num li{
+	float: left;
+	color: #FF7300;
+	text-align: center;
+	line-height: 16px;
+	width: 16px;
+	height: 16px;
+	font-family: Arial;
+	font-size: 12px;
+	cursor: pointer;
+	overflow: hidden;
+	margin: 3px 1px;
+	border: 1px solid #FF7300;
+	background-color: #fff;
+}
+.num li.on{
+	color: #fff;
+	line-height: 21px;
+	width: 21px;
+	height: 21px;
+	font-size: 16px;
+	margin: 0 1px;
+	border: 0;
+	background-color: #FF7300;
+	font-weight: bold;
+}
+/*图片新闻的标题*/
+.slider li p{
+	width:260px;
+	height:37px;
+	background:url(../img/news/pic_news.gif);
+	line-height:37px;
+	vertical-align:middle;
+	padding:3px 10px;
+	font-size:14px;
+	margin-top:2px;
+	}
+
+/*新闻列表*/
+#news{
+	height:255px;
+	float:left;
+	}
+#news h1{
+	width:420px;
+	height:50px;
+	
+	
+	margin-bottom:5px;
+	}
+#news ul{
+	float:left;
+	}
+#news li{
+	width:415px;
+	height:24px;
+	line-height:24px;
+	font-size:12px;
+	position:relative;
+	}
+#news .hot{
+	color:#65a7d0;
+	font-weight:bold;
+	font-size:16px;
+	font-family:"微软雅黑";
+	letter-spacing:1px;	
+	}
+#news .newsdate{
+	color:#a9a9a9;
+	position:absolute;
+	right:0px
+	}
+#pic{	
+     text-align:center;
+	 margin:10px 0px;
+	 }
+#pic img{ margin:10px 0px}
+#pic .jg{
+	margin-left:18px;
+	}
+.second_news{
+	width:350px;
+	background-color:#f9f9f9;
+	border-top:1px solid #eee;
+	border-bottom:2px solid #eee;
+	height:250px;
+	float:left;
+	}
+.second_news h1{margin:20px 0px}
+.second_news li{
+	height:25px;
+	font-size:12px;
+	margin-left:10px;
+	background:url(../img/pot.gif)  no-repeat;
+	background-position:10px 5px;
+	padding-left:25px
+	}
+/*底部*/
+#foot{
+	clear:both;
+	height:68px;
+	background:#2a2a2a;
+	text-align:center;
+	line-height:68px;
+	vertical-align:middle;
+	color:#d8d8d8;
+	}
+

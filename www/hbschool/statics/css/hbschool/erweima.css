@@ -1,0 +1,30 @@
+#erweima{
+	position:fixed;
+	right:20px;
+	bottom:248px;
+	width:100px;
+	height:100px;
+	padding:0;
+	margin:0;
+}
+#erweima img#bianma{
+	width:100px;
+	height:100px;
+}
+#erweima img#close{
+	width:20px;
+	height:20px;
+	position:absolute;
+	right:3px;
+	top:3px;
+	cursor:pointer;
+}
+#qqweibo{
+	position:fixed;
+	left:20px;
+	bottom:250px;
+}
+#qqweibo img{
+	margin:3px;
+	border:1px solid #ccc;
+}
